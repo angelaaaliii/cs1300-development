@@ -1,0 +1,26 @@
+.book {
+  background-color: #FF6F59;
+  display: flex; 
+  flex-direction: column;
+  font-family: "Bookman Old Style";
+}
+
+.addToCart {
+  width: 100%;
+  height: 20%;
+}
+
+/*
+<div className="book">
+      <img src={imgLink} className="book-image" alt="image of BOOK TITLE cover" />
+      <div className="title">{title}</div>
+      <div className="author">{author}</div>
+      <div className="genre">{genre}</div>
+      <div className="price">{price}</div>
+      <button id = "addToCart"
+        onClick = {onClick}
+        title="Add to Cart"
+        color="#841584"
+      />
+    </div>
+    */
