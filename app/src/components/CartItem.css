@@ -1,0 +1,29 @@
+.cart-item {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  font-size: calc(7px + 2vmin);
+  font-family: "Bookman Old Style";
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.cart-remove {
+  margin-top: 1%;
+  margin-left: 1%;
+  /* width: 1.5%;
+  height: 2.5px; */
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  font-family: "Bookman Old Style";
+  font-size: calc(4px + 2vmin);
+  display: flex;
+  justify-content: center;
+}
+
+.cart-remove:hover {
+  background-color: rgb(167, 0, 0);
+}

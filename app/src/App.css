@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #43AA8B;
+  width: 100vw;
 }
 
 .App-logo {
@@ -21,20 +22,59 @@
   min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
+  text-align: left;
+  padding-left: 2.5%;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.sort-filters {
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown {
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 15%;
+}
+
+.bookshelf {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.Cart-header {
+  color: white;
+  font-family: "Bookman Old Style";
+  background-color: #254441;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  text-align: left;
+  padding-left: 2.5%;
+  margin-top: 4%;
 }
+
+/* .cart {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 5%;
+} */
