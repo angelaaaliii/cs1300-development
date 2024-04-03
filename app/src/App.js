@@ -300,7 +300,9 @@ function App() {
           </CartItem>
           ))}
           <br></br>
-          Total Price: ${cartPrice}
+          <div className ="cart-price">
+            Total Price: ${Math.abs(cartPrice.toFixed(2))}
+          </div>
         </div>
 
       </div>

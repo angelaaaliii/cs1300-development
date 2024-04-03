@@ -22,7 +22,7 @@
 }
 
 .title {
-  width: 100%;
+  width: 90%;
   margin-top: 4%;
   margin-left: 5%;
   margin-right: 5%;
@@ -63,10 +63,11 @@
 
 .addToCart {
   margin-top: 4%;
+  margin-bottom: 4%;
   margin-left: 5%;
   margin-right: 5%;
-  width: 30%;
-  height: 13%;
+  width: 50%;
+  height: auto;
   background-color: white;
   border-radius: 5px;
   font-family: "Bookman Old Style";

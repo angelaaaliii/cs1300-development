@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #43AA8B;
   width: 100vw;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -70,6 +71,18 @@
   text-align: left;
   padding-left: 2.5%;
   margin-top: 4%;
+}
+
+.cart-price {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  font-size: calc(7px + 2vmin);
+  font-family: "Bookman Old Style";
+  margin-top: 2%;
+  margin-left: 4%;
 }
 
 /* .cart {
