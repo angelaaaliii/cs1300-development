@@ -226,13 +226,13 @@ function App() {
         <div className="sort-filters">
 
           <div className="dropdown" aria-label="sort by titles alphabetically dropdown">
-            <Select onChange={handleSortClick} placeholder='Sort by:'>
+            <Select onChange={handleSortClick} placeholder='Sort by: Featured'>
               <option value='sort titles alphabetically'>Title - Alphabetical</option>
             </Select>
           </div>
 
           <div className ="dropdown" aria-label="filter by author dropdown">
-            <Select onChange={handleAuthorFilterClick} placeholder='Select Author'>
+            <Select onChange={handleAuthorFilterClick} placeholder='All Authors'>
               <option value='Agatha Christie'>Agatha Christie</option>
               <option value='Alex Michaelides'>Alex Michaelides</option>
               <option value='Andy Weir'>Andy Weir</option>
@@ -255,7 +255,7 @@ function App() {
           </div>
 
           <div className="dropdown" aria-label="filter by genre dropdown">
-            <Select onChange={handleGenreFilterClick} placeholder='Select Genre'>
+            <Select onChange={handleGenreFilterClick} placeholder='All Genres'>
               <option value='Fiction'>Fiction</option>
               <option value='Memoir'>Memoir</option>
               <option value='Fantasy'>Fantasy</option>
@@ -302,6 +302,7 @@ function App() {
           <br></br>
           <div className ="cart-price">
             Total Price: ${Math.abs(cartPrice.toFixed(2))}
+            <br>Total Items: books</br>
           </div>
         </div>
 
