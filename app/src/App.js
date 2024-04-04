@@ -310,12 +310,13 @@ function App() {
           ))}
           <br></br>
           <div className ="aggregator-count">
-            Total Items: {cartTotalItems} Book(s)
+            <b>Total Items: {cartTotalItems} Book(s)</b>
           </div>
           <div className ="aggregator-count">
-            Total Price: ${Math.abs(cartPrice.toFixed(2))}
+            <b>Total Price: ${Math.abs(cartPrice.toFixed(2))}</b>
           </div>
-
+          <br></br>
+          <br></br>
         </div>
 
       </div>
