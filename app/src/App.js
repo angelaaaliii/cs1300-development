@@ -5,9 +5,10 @@ import bookData from "./assets/book-data.json";
 import BookItem from "./components/BookItem";
 import CartItem from "./components/CartItem";
 import { ChakraProvider } from '@chakra-ui/react';
+import SortDropdown from './components/SortDropdown';
+import AuthorDropdown from './components/AuthorDropdown';
+import GenreDropdown from './components/GenreDropdown';
 
-// TODOs:
-// 2) sailor who fell from grace with the sea
 
 // image URLs:
 bookData.forEach((item) => {
@@ -233,49 +234,20 @@ function App() {
         </header>
 
         <div className="sort-filters">
+          <SortDropdown
+            onClick={handleSortClick}  
+          >
+          </SortDropdown>
 
-          <div className="dropdown" aria-label="sort by titles alphabetically dropdown">
-            <Select onChange={handleSortClick} placeholder='Sort by: Featured'>
-              <option value='sort titles alphabetically'>Title - Alphabetical</option>
-            </Select>
-          </div>
+          <AuthorDropdown
+            onClick={handleAuthorFilterClick}
+          >
+          </AuthorDropdown>
 
-          <div className ="dropdown" aria-label="filter by author dropdown">
-            <Select onChange={handleAuthorFilterClick} placeholder='All Authors'>
-              <option value='Agatha Christie'>Agatha Christie</option>
-              <option value='Alex Michaelides'>Alex Michaelides</option>
-              <option value='Andy Weir'>Andy Weir</option>
-              <option value='Charles Bukowski'>Charles Bukowski</option>
-              <option value='Christina Lauren'>Christina Lauren</option>
-              <option value='Eileen Chang'>Eileen Chang</option>
-              <option value='Fredrik Backman'>Fredrik Backman</option>
-              <option value='Jane Austen'>Jane Austen</option>
-              <option value='Madeline Miller'>Madeline Miller</option>
-              <option value='Martha Anne Toll'>Martha Anne Toll</option>
-              <option value='Mary-Ann Tirone Smith'>Mary-Ann Tirone Smith</option>
-              <option value='Min Jin Lee'>Min Jin Lee</option>
-              <option value='Ocean Vuong'>Ocean Vuong</option>
-              <option value='Olivie Blake'>Olivie Blake</option>
-              <option value='Peng Shepherd'>Peng Shepherd</option>
-              <option value='Raymond Carver'>Raymond Carver</option>
-              <option value='Richard Yates'>Richard Yates</option>
-              <option value='Yukio Mishima'>Yukio Mishima</option>
-            </Select>
-          </div>
-
-          <div className="dropdown" aria-label="filter by genre dropdown">
-            <Select onChange={handleGenreFilterClick} placeholder='All Genres'>
-              <option value='Fiction'>Fiction</option>
-              <option value='Memoir'>Memoir</option>
-              <option value='Fantasy'>Fantasy</option>
-              <option value='Thriller'>Thriller</option>
-              <option value='Romance'>Romance</option>
-              <option value='Historical Fiction'>Historical Fiction</option>
-              <option value='Mystery'>Mystery</option>
-              <option value='Science Fiction'>Science Fiction</option>
-            </Select>
-          </div>
-
+          <GenreDropdown
+            onClick={handleGenreFilterClick}
+          >
+          </GenreDropdown>
         </div>
 
         <div className ="bookshelf">
