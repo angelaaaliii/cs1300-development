@@ -21,6 +21,7 @@ function App() {
   const [books, setBooks] = useState(bookData);
   const [isSortFilter, setIsSortFilter] = useState([false, "", ""]);
                                                   // sort, author, genre
+  const [cartTotalItems, setcartTotalItems] = useState(0);
 
   function handleAddCartClick(price, title) {
     var newCart = cartItemCount;
@@ -36,6 +37,7 @@ function App() {
     }
     setCartItemCount(newCart);
     setCartPrice(cartPrice + price);
+    setcartTotalItems(cartTotalItems + 1);
   }
 
   function handleRemoveCartClick(title) {
@@ -60,6 +62,7 @@ function App() {
     }
     setCartItemCount(newCartItemCount);
     setCartPrice(cartPrice - price);
+    setcartTotalItems(cartTotalItems - 1);
   }
 
   function compareByTitle(book1, book2) {
@@ -226,7 +229,7 @@ function App() {
     <ChakraProvider>
       <div className="App">
         <header className="App-header">
-          Bookstore
+          <b>Bookstore</b>
         </header>
 
         <div className="sort-filters">
@@ -292,7 +295,7 @@ function App() {
         </div>
 
         <header className="Cart-header">
-          My Cart
+          <b>My Cart</b>
         </header>
 
         <div className="cart">
@@ -306,9 +309,13 @@ function App() {
           </CartItem>
           ))}
           <br></br>
-          <div className ="cart-price">
+          <div className ="aggregator-count">
+            Total Items: {cartTotalItems} Book(s)
+          </div>
+          <div className ="aggregator-count">
             Total Price: ${Math.abs(cartPrice.toFixed(2))}
           </div>
+
         </div>
 
       </div>
