@@ -225,13 +225,13 @@ function App() {
 
         <div className="sort-filters">
 
-          <div className="dropdown">
+          <div className="dropdown" aria-label="sort by titles alphabetically dropdown">
             <Select onChange={handleSortClick} placeholder='Sort by:'>
               <option value='sort titles alphabetically'>Title - Alphabetical</option>
             </Select>
           </div>
 
-          <div className ="dropdown">
+          <div className ="dropdown" aria-label="filter by author dropdown">
             <Select onChange={handleAuthorFilterClick} placeholder='Select Author'>
               <option value='Agatha Christie'>Agatha Christie</option>
               <option value='Alex Michaelides'>Alex Michaelides</option>
@@ -254,7 +254,7 @@ function App() {
             </Select>
           </div>
 
-          <div className="dropdown">
+          <div className="dropdown" aria-label="filter by genre dropdown">
             <Select onChange={handleGenreFilterClick} placeholder='Select Genre'>
               <option value='Fiction'>Fiction</option>
               <option value='Memoir'>Memoir</option>
