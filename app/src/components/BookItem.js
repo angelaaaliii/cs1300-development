@@ -3,7 +3,7 @@ import './BookItem.css';
 export default function BookItem({onClick, title, author, genre, price, imgLink}) {
   return (
     <div className="book">
-      <img src={imgLink} className="book-image" alt="image of BOOK TITLE cover" />
+      <img src={imgLink} className="book-image" alt="image of book cover" />
       <div className ="book-info">
         <div className="title">{title}</div>
         <div className="author">{author}</div>

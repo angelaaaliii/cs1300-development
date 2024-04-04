@@ -9,7 +9,7 @@ export default function CartItem({title, quantity, onClick}) {
         className="cart-remove"
         onClick={onClick}
       >
-        -1
+        Remove
       </button>
       <div className="cart-text">
         {title} x{quantity}

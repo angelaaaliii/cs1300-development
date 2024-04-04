@@ -15,7 +15,9 @@
   margin-top: 0.3%;
   /* width: 1.5%;
   height: 2.5px; */
-  width: 3.5%;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: auto;
   height: 2%;
   background-color: white;
   font-family: "Bookman Old Style";

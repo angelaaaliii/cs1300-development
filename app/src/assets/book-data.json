@@ -2,133 +2,133 @@
   {
     "title": "Half a Lifelong Romance",
     "author": "Eileen Chang",
-    "price": 7.99,
+    "price": 12.89,
     "genre": "Fiction",
     "image": "half-a-lifelong-romance.png"
   },
   {
     "title": "On Earth We're Briefly Gorgeous",
     "author": "Ocean Vuong",
-    "price": 7.99,
+    "price": 12.99,
     "genre": "Fiction",
     "image": "on-earth-we're-briefly-gorgeous.png"
   },
   {
     "title": "Post Office",
     "author": "Charles Bukowski",
-    "price": 7.99,
+    "price": 13.58,
     "genre": "Fiction",
     "image": "post-office.png"
   },
   {
     "title": "Anxious People",
     "author": "Fredrik Backman",
-    "price": 7.99,
+    "price": 12.99,
     "genre": "Fiction",
     "image": "anxious-people.png"
   },
   {
     "title": "Eleven Kinds of Loneliness",
     "author": "Richard Yates",
-    "price": 7.99,
+    "price": 12.79,
     "genre": "Fiction",
     "image": "eleven-kinds-of-loneliness.png"
   },
   {
     "title": "The Song of Achilles",
     "author": "Madeline Miller",
-    "price": 7.99,
+    "price": 13.58,
     "genre": "Fantasy",
     "image": "song-of-achilles.png"
   },
   {
     "title": "Pachinko",
     "author": "Min Jin Lee",
-    "price": 7.99,
+    "price": 13.99,
     "genre": "Fiction",
     "image": "pachinko.png"
   },
   {
     "title": "What We Talk About When We Talk About Love",
     "author": "Raymond Carver",
-    "price": 7.99,
+    "price": 10.99,
     "genre": "Fiction",
     "image": "what-we-talk-about-when-we-talk-about-love.png"
   },
   {
     "title": "Circe",
     "author": "Madeline Miller",
-    "price": 7.99,
+    "price": 12.99,
     "genre": "Fantasy",
     "image": "circe.png"
   },
   {
     "title": "The Silent Patient",
     "author": "Alex Michaelides",
-    "price": 7.99,
+    "price": 11.99,
     "genre": "Thriller",
     "image": "the-silent-patient.png"
   },
   {
     "title": "Girls of Tender Age: A Memoir",
     "author": "Mary-Ann Tirone Smith",
-    "price": 7.99,
+    "price": 9.78,
     "genre": "Memoir",
     "image": "girls-of-tender-age-a-memoir.png"
   },
   {
     "title": "Alone With You in the Ether",
     "author": "Olivie Blake",
-    "price": 7.99,
+    "price": 11.99,
     "genre": "Romance",
     "image": "alone-with-you-in-the-ether.png"
   },
   {
     "title": "Persuasion",
     "author": "Jane Austen",
-    "price": 7.99,
+    "price": 11.72,
     "genre": "Fiction",
     "image": "persuasion.png"
   },
   {
     "title": "The Cartographers",
     "author": "Peng Shepherd",
-    "price": 7.99,
+    "price": 12.68,
     "genre": "Fantasy",
     "image": "the-cartographers.png"
   },
   {
     "title": "Three Muses",
     "author": "Martha Anne Toll",
-    "price": 7.99,
+    "price": 9.57,
     "genre": "Historical Fiction",
     "image": "three-muses.png"
   },
   {
     "title": "The Sailor Who Fell from Grace with the Sea",
     "author": "Yukio Mishima",
-    "price": 7.99,
+    "price": 10.56,
     "genre": "Fiction",
     "image": "the-sailor-who-fell-from-grace-with-the-sea.png"
   },
   {
     "title": "Hallowe'en Party",
     "author": "Agatha Christie",
-    "price": 7.99,
+    "price": 11.99,
     "genre": "Mystery",
     "image": "hallowe'en-party.png"
   },
   {
     "title": "Love and Other Words",
     "author": "Christina Lauren",
-    "price": 7.99,
+    "price": 10.99,
     "genre": "Romance",
     "image": "love-and-other-words.png"
   },
   {
     "title": "Project Hail Mary",
     "author": "Andy Weir",
-    "price": 7.99,
+    "price": 13.99,
     "genre": "Science Fiction",
     "image": "project-hail-mary.png"
   }
