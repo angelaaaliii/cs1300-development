@@ -302,7 +302,6 @@ function App() {
           <br></br>
           <div className ="cart-price">
             Total Price: ${Math.abs(cartPrice.toFixed(2))}
-            <br>Total Items: books</br>
           </div>
         </div>
 
