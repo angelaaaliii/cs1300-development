@@ -8,7 +8,7 @@ export default function BookItem({onClick, title, author, genre, price, imgLink}
         <div className="title">{title}</div>
         <div className="author">{author}</div>
         <div className="genre">{genre}</div>
-        <div className="price">{price}</div>
+        <div className="price">${price}</div>
         <button className="addToCart"
           onClick = {onClick}
         > Add to Cart </button>

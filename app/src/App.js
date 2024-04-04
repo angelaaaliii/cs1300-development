@@ -89,10 +89,12 @@ function App() {
       if (isSortFilter[1] == "" && isSortFilter[2] == "") {
         // other filters are NOT active:
         newBooks = [...bookData];
+        console.log("HERE BEFORE ");
         console.log(bookData);
       }
       else {
         // other filters are active:
+        console.log(bookData);
         for (var i = 0; i < bookData.length; i++) {
           if (books.includes(bookData[i], 0)) {
             newBooks.push(bookData[i]);
@@ -133,7 +135,8 @@ function App() {
       }
 
       if (isSortFilter[0]) {
-        newBooks = [...newBooks.sort(compareByTitle)];
+        var copy = [...newBooks]
+        newBooks = copy.sort(compareByTitle);
       }
       
     }
@@ -158,7 +161,8 @@ function App() {
       }
 
       if (isSortFilter[0]) {
-        newBooks = [...newBooks.sort(compareByTitle)];
+        var copy = [...newBooks]
+        newBooks = copy.sort(compareByTitle);
       }
     }
     setBooks(newBooks);
@@ -189,7 +193,8 @@ function App() {
       }
 
       if (isSortFilter[0]) {
-        newBooks = [...newBooks.sort(compareByTitle)];
+        var copy = [...newBooks]
+        newBooks = copy.sort(compareByTitle);
       }
     }
     else {
@@ -208,7 +213,8 @@ function App() {
       }
 
       if (isSortFilter[0]) {
-        newBooks = [...newBooks.sort(compareByTitle)];
+        var copy = [...newBooks]
+        newBooks = copy.sort(compareByTitle);
       }
 
     }
